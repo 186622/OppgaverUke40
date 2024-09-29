@@ -46,18 +46,22 @@ public class Vare {
 	}
 	
 	public double beregnMoms() {
+		return pris * 0.20;
 		
-		throw new TODO("beregnMoms");
 	}
 	
 	public String toString() {
 		
-		throw new TODO("toString");
+		return "Varenr: " + varenr + ", navn: " + navn + ", pris: " + pris;
 	}
 	
 	public boolean erBilligereEnn(Vare v) {
 		
-		throw new TODO("erBilligereEnn");
+		if (v.getPris() < this.pris) {
+			return true;
+		}
+		return false;
+		
 	}
 	
 }
