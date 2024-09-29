@@ -4,9 +4,20 @@ public class Vare {
 
 	// TODO - objektvariable
 	
+	//a)
+	private int varenr;
+	private String navn;
+	private double pris;
+	
+	
+	
+	//Konstruktøren for Vare //
+	
 	public Vare(int varenr, String navn, double pris) {
-		
-		throw new TODO("Vare"); // REMOVE ME WHEN DONE
+	    this.varenr = varenr;
+	    this.navn = navn;
+	    this.pris = pris;
+
 	}
 	
 	public int getVarenr() {
@@ -56,3 +67,10 @@ public class Vare {
 	}
 	
 }
+
+
+
+
+
+
+
